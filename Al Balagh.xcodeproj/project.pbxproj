@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF76DE91CA25ED600C8DF70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DE81CA25ED600C8DF70 /* AppDelegate.swift */; };
+		FFF76DEB1CA25ED600C8DF70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DEA1CA25ED600C8DF70 /* ViewController.swift */; };
+		FFF76DEE1CA25ED600C8DF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF76DEC1CA25ED600C8DF70 /* Main.storyboard */; };
+		FFF76DF01CA25ED600C8DF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF76DEF1CA25ED600C8DF70 /* Assets.xcassets */; };
+		FFF76DF31CA25ED600C8DF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF76DF11CA25ED600C8DF70 /* LaunchScreen.storyboard */; };
+		FFF76DFE1CA25ED800C8DF70 /* Al_BalaghTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DFD1CA25ED800C8DF70 /* Al_BalaghTests.swift */; };
+		FFF76E091CA25ED800C8DF70 /* Al_BalaghUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76E081CA25ED800C8DF70 /* Al_BalaghUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF76DFA1CA25ED800C8DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF76DDD1CA25ED600C8DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF76DE41CA25ED600C8DF70;
+			remoteInfo = "Al Balagh";
+		};
+		FFF76E051CA25ED800C8DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF76DDD1CA25ED600C8DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF76DE41CA25ED600C8DF70;
+			remoteInfo = "Al Balagh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF76DE51CA25ED600C8DF70 /* Al Balagh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al Balagh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF76DE81CA25ED600C8DF70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF76DEA1CA25ED600C8DF70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF76DED1CA25ED600C8DF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF76DEF1CA25ED600C8DF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF76DF21CA25ED600C8DF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF76DF41CA25ED600C8DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF76DF91CA25ED800C8DF70 /* Al BalaghTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al BalaghTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF76DFD1CA25ED800C8DF70 /* Al_BalaghTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_BalaghTests.swift; sourceTree = "<group>"; };
+		FFF76DFF1CA25ED800C8DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF76E041CA25ED800C8DF70 /* Al BalaghUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al BalaghUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF76E081CA25ED800C8DF70 /* Al_BalaghUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_BalaghUITests.swift; sourceTree = "<group>"; };
+		FFF76E0A1CA25ED800C8DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF76DE21CA25ED600C8DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DF61CA25ED800C8DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76E011CA25ED800C8DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF76DDC1CA25ED600C8DF70 = {
+			isa = PBXGroup;
+			children = (
+				FFF76DE71CA25ED600C8DF70 /* Al Balagh */,
+				FFF76DFC1CA25ED800C8DF70 /* Al BalaghTests */,
+				FFF76E071CA25ED800C8DF70 /* Al BalaghUITests */,
+				FFF76DE61CA25ED600C8DF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF76DE61CA25ED600C8DF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DE51CA25ED600C8DF70 /* Al Balagh.app */,
+				FFF76DF91CA25ED800C8DF70 /* Al BalaghTests.xctest */,
+				FFF76E041CA25ED800C8DF70 /* Al BalaghUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF76DE71CA25ED600C8DF70 /* Al Balagh */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DE81CA25ED600C8DF70 /* AppDelegate.swift */,
+				FFF76DEA1CA25ED600C8DF70 /* ViewController.swift */,
+				FFF76DEC1CA25ED600C8DF70 /* Main.storyboard */,
+				FFF76DEF1CA25ED600C8DF70 /* Assets.xcassets */,
+				FFF76DF11CA25ED600C8DF70 /* LaunchScreen.storyboard */,
+				FFF76DF41CA25ED600C8DF70 /* Info.plist */,
+			);
+			path = "Al Balagh";
+			sourceTree = "<group>";
+		};
+		FFF76DFC1CA25ED800C8DF70 /* Al BalaghTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DFD1CA25ED800C8DF70 /* Al_BalaghTests.swift */,
+				FFF76DFF1CA25ED800C8DF70 /* Info.plist */,
+			);
+			path = "Al BalaghTests";
+			sourceTree = "<group>";
+		};
+		FFF76E071CA25ED800C8DF70 /* Al BalaghUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76E081CA25ED800C8DF70 /* Al_BalaghUITests.swift */,
+				FFF76E0A1CA25ED800C8DF70 /* Info.plist */,
+			);
+			path = "Al BalaghUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF76DE41CA25ED600C8DF70 /* Al Balagh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF76E0D1CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al Balagh" */;
+			buildPhases = (
+				FFF76DE11CA25ED600C8DF70 /* Sources */,
+				FFF76DE21CA25ED600C8DF70 /* Frameworks */,
+				FFF76DE31CA25ED600C8DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Al Balagh";
+			productName = "Al Balagh";
+			productReference = FFF76DE51CA25ED600C8DF70 /* Al Balagh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF76DF81CA25ED800C8DF70 /* Al BalaghTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF76E101CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al BalaghTests" */;
+			buildPhases = (
+				FFF76DF51CA25ED800C8DF70 /* Sources */,
+				FFF76DF61CA25ED800C8DF70 /* Frameworks */,
+				FFF76DF71CA25ED800C8DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF76DFB1CA25ED800C8DF70 /* PBXTargetDependency */,
+			);
+			name = "Al BalaghTests";
+			productName = "Al BalaghTests";
+			productReference = FFF76DF91CA25ED800C8DF70 /* Al BalaghTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF76E031CA25ED800C8DF70 /* Al BalaghUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF76E131CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al BalaghUITests" */;
+			buildPhases = (
+				FFF76E001CA25ED800C8DF70 /* Sources */,
+				FFF76E011CA25ED800C8DF70 /* Frameworks */,
+				FFF76E021CA25ED800C8DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF76E061CA25ED800C8DF70 /* PBXTargetDependency */,
+			);
+			name = "Al BalaghUITests";
+			productName = "Al BalaghUITests";
+			productReference = FFF76E041CA25ED800C8DF70 /* Al BalaghUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF76DDD1CA25ED600C8DF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MRCode;
+				TargetAttributes = {
+					FFF76DE41CA25ED600C8DF70 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FFF76DF81CA25ED800C8DF70 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FFF76DE41CA25ED600C8DF70;
+					};
+					FFF76E031CA25ED800C8DF70 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FFF76DE41CA25ED600C8DF70;
+					};
+				};
+			};
+			buildConfigurationList = FFF76DE01CA25ED600C8DF70 /* Build configuration list for PBXProject "Al Balagh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF76DDC1CA25ED600C8DF70;
+			productRefGroup = FFF76DE61CA25ED600C8DF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF76DE41CA25ED600C8DF70 /* Al Balagh */,
+				FFF76DF81CA25ED800C8DF70 /* Al BalaghTests */,
+				FFF76E031CA25ED800C8DF70 /* Al BalaghUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF76DE31CA25ED600C8DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DF31CA25ED600C8DF70 /* LaunchScreen.storyboard in Resources */,
+				FFF76DF01CA25ED600C8DF70 /* Assets.xcassets in Resources */,
+				FFF76DEE1CA25ED600C8DF70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DF71CA25ED800C8DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76E021CA25ED800C8DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF76DE11CA25ED600C8DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DEB1CA25ED600C8DF70 /* ViewController.swift in Sources */,
+				FFF76DE91CA25ED600C8DF70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DF51CA25ED800C8DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DFE1CA25ED800C8DF70 /* Al_BalaghTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76E001CA25ED800C8DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76E091CA25ED800C8DF70 /* Al_BalaghUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF76DFB1CA25ED800C8DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF76DE41CA25ED600C8DF70 /* Al Balagh */;
+			targetProxy = FFF76DFA1CA25ED800C8DF70 /* PBXContainerItemProxy */;
+		};
+		FFF76E061CA25ED800C8DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF76DE41CA25ED600C8DF70 /* Al Balagh */;
+			targetProxy = FFF76E051CA25ED800C8DF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF76DEC1CA25ED600C8DF70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF76DED1CA25ED600C8DF70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF76DF11CA25ED600C8DF70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF76DF21CA25ED600C8DF70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF76E0B1CA25ED800C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF76E0C1CA25ED800C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF76E0E1CA25ED800C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Al Balagh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Al-Balagh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF76E0F1CA25ED800C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Al Balagh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Al-Balagh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFF76E111CA25ED800C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Al BalaghTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Al-BalaghTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Al Balagh.app/Al Balagh";
+			};
+			name = Debug;
+		};
+		FFF76E121CA25ED800C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Al BalaghTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Al-BalaghTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Al Balagh.app/Al Balagh";
+			};
+			name = Release;
+		};
+		FFF76E141CA25ED800C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Al BalaghUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Al-BalaghUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Al Balagh";
+			};
+			name = Debug;
+		};
+		FFF76E151CA25ED800C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Al BalaghUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Al-BalaghUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Al Balagh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF76DE01CA25ED600C8DF70 /* Build configuration list for PBXProject "Al Balagh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76E0B1CA25ED800C8DF70 /* Debug */,
+				FFF76E0C1CA25ED800C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF76E0D1CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al Balagh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76E0E1CA25ED800C8DF70 /* Debug */,
+				FFF76E0F1CA25ED800C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF76E101CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al BalaghTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76E111CA25ED800C8DF70 /* Debug */,
+				FFF76E121CA25ED800C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF76E131CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al BalaghUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76E141CA25ED800C8DF70 /* Debug */,
+				FFF76E151CA25ED800C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF76DDD1CA25ED600C8DF70 /* Project object */;
+}
