@@ -484,6 +484,7 @@
 				FFF76E0F1CA25ED800C8DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF76E101CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al BalaghTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				FFF76E121CA25ED800C8DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF76E131CA25ED800C8DF70 /* Build configuration list for PBXNativeTarget "Al BalaghUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				FFF76E151CA25ED800C8DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
